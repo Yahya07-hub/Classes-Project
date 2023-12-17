@@ -1,0 +1,174 @@
+// contact us section
+.contact-container{
+    background-color: #fafafa;
+
+    .inner-container{
+        margin: 0 auto;
+        padding: 0 2rem;
+        max-width: 850px;
+        margin-top: 3.5rem;
+
+        @media screen and (min-width:768px) {
+            max-width: 1024px;
+        }
+
+        // aakrutis logo
+        .image-container{
+            
+            img{
+                height: 2.5rem;
+                margin-top: 6rem;
+                
+                @media screen and (min-width:768px) {
+                    height: 2.8rem;
+                }
+            }
+        }
+
+        // contact
+        .contact{
+            margin-top: 0.5rem;
+            
+            .fas {
+                font-size: 0.9rem;
+                
+                @media screen and (min-width:768px) {
+                    font-size: 1rem;
+                }
+                
+            }
+
+            .fab{
+                font-size: 0.9rem;
+                margin: 0 0.5rem 0 0.3rem;
+                
+                @media screen and (min-width:768px) {
+                    font-size: 1rem;
+                }
+            }
+
+            
+        }
+
+        // social media
+        .social{
+            border-bottom: 2px solid rgb(235, 234, 234);
+            
+            p{
+                font-size: 0.8rem;
+                font-weight: 200;
+                margin-top: 1.75rem;
+
+            }
+
+            // icons
+            .fab{
+                color: #171717;
+                font-size: 1.25rem;
+                margin-top: 0.25rem;
+                margin-right: 0.2rem;
+                margin-bottom: 2rem;
+                
+                @media screen and (min-width:768px) {
+                    font-size: 1.6rem;
+                }
+                
+            }
+
+            .fab:hover{
+                color: #5b21b6;                
+            }
+
+            .fab:active{
+                transform: scale(115%);
+            }
+        }
+
+        // para
+        p{
+            font-size: 0.9rem;
+            font-weight: 300;
+            margin-top: 1.5rem;
+
+            @media screen and (min-width:768px) {
+                font-size: 1.1rem;
+            }
+        }
+
+        // policy
+        .additional-info{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2rem;
+            
+            
+            a{
+                text-decoration: none;
+                font-size: 0.85rem;
+                color: #171717;                
+                margin-bottom: 5rem;
+                
+                @media screen and (min-width:768px) {
+                    font-size: 1rem;
+                }
+            }
+            
+            .policy{
+                margin-right: 0.4rem;
+                padding-right: 0.4rem;
+                border-right: 2px solid rgb(223, 219, 219);
+            }
+            
+            
+            a:hover{
+                color: #5b21b6;
+            }
+
+            a::after{
+                content: "";
+                background: #5b21b6;
+                width: 0%;
+                height: 2px;
+                display: block;
+                margin: auto;
+                transition: 0.5s;
+                
+            }
+            
+            a:hover::after{
+                width: 100%;
+            }
+            
+
+            
+        }
+    }
+}
+
+// footer
+.f-container {
+    background-color: #f5f5f5;
+    .f-box {
+        margin: 0 auto;
+        padding: 2rem;
+        max-width: 1024px;
+
+        h5 {
+            font-size: 0.8rem;
+            padding-top: 2rem;
+
+            @media screen and (min-width:768px) {
+                font-size: 0.9rem;
+            }
+        }
+
+        p {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+
+            @media screen and (min-width:768px) {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

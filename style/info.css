@@ -1,0 +1,35 @@
+.inner-container {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 850px;
+  margin-top: 6rem;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    max-width: 1024px;
+  }
+}
+.inner-container img {
+  height: 1.6rem;
+}
+.inner-container .fas {
+  margin-bottom: 0.2rem;
+  margin-right: 0.3rem;
+}
+.inner-container h2 {
+  margin-bottom: 2rem;
+}
+.inner-container p {
+  font-size: 1.2rem;
+  margin-top: 1.15rem;
+  line-height: 1.25;
+}
+.inner-container p span {
+  color: #4c1d95;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .inner-container p {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,287 @@
+/* font */
+@import url('button.css');
+@import url('footer.css');
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+/* topbar */
+.topbar {
+  background-color: #4c1d95;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.75rem;
+}
+.topbar {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  height: 2.3rem;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 2.8rem;
+  }
+}
+.list-menu-container {
+  background-color: #fafafa;
+}
+.list-menu-container ul {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+.list-menu-container ul li {
+  color: #171717;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.list-menu-container ul .fas {
+  color: #bdbcbc;
+  margin: 0 0.5rem;
+}
+.list-menu-container ul a {
+  text-decoration: none;
+  color: #171717;
+  display: flex;
+  align-items: center;
+}
+.list-menu-container ul .index:hover {
+  color: #4c1d95;
+}
+.courses-container {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1350px;
+  margin-bottom: 4rem;
+}
+.courses-container .heading {
+  margin: 4rem auto;
+  max-width: 1024px;
+  margin-bottom: 2rem;
+}
+.courses-container .heading p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  
+}
+@media screen and (min-width: 768px) {
+  .courses-container .heading p {
+    font-size: 1.7rem;
+  }
+}
+.courses-container .course-cards {
+  margin-top: 3rem;
+}
+.courses-container .course-cards .set1 {
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 1rem;
+  max-width: 1350px;
+  margin: 0;
+  padding: 0;
+}
+.courses-container .course-cards .set1 .card {
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card {
+    display: flex;
+  }
+}
+.courses-container .course-cards .set1 .card .card-sections {
+  box-shadow: 2px 4px 8px 2px #4c1d95, 2px 6px 20px 2px #4c1d95;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections .sec1 {
+    width: 50%;
+  }
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 1.75rem;
+  flex-grow: 1;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections .sec1 .card-icons {
+    padding-bottom: 1rem;
+  }
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-icons img {
+  height: 1.6rem;
+  margin-right: 0.5rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-info {
+  padding: 2rem;
+  padding-top: 1rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-info p,
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-info h2 {
+  line-height: 1;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-info p {
+  font-size: 0.9rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec1 .card-info h2 {
+  font-size: 1.15rem;
+  letter-spacing: 0.001rem;
+  line-height: 1.2;
+  margin-top: 0.4rem;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections .sec2 {
+    width: 50%;
+  }
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 ul {
+  list-style: none;
+  border-top: 1px solid #eee;
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections .sec2 ul {
+    border-top: none;
+    border-left: 1px solid #eee;
+    flex-wrap: nowrap;
+  }
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 ul li {
+  display: flex;
+  align-items: center;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 ul li .fas {
+  flex-shrink: 0;
+  color: #f59e0b;
+  font-size: 1.1rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 ul li span {
+  line-height: 1;
+  margin-left: 1rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 ul li + li {
+  margin-top: 0.75rem;
+}
+.courses-container .course-cards .set1 .card .card-sections .sec2 .card-action {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  margin-top: 1em;
+}
+@media screen and (min-width: 768px) {
+  .courses-container .course-cards .set1 .card .card-sections .sec2 .card-action {
+    display: none;
+  }
+}
+.card .hidden {
+  display: none;
+  margin-left: 0.25rem;
+}
+@media screen and (min-width: 768px) {
+  .card .hidden {
+    display: flex;
+  }
+}
+.card .hidden .fas {
+  color: #f59e0b;
+}
+.card .hidden button {
+  padding: 1rem;
+  flex-direction: column;
+  border-radius: 0%;
+}
+@media screen and (min-width: 768px) {
+  .card .hidden button {
+    width: 3rem;
+  }
+}
+.card .hidden .filled-btn:hover {
+  transform: scale(105%);
+  box-shadow: 0px 4px 8px 0px #4c1d95, 0px 6px 20px 0px #4c1d95;
+}
+.card .hidden .filled-btn:active {
+  transform: scale(115%);
+}

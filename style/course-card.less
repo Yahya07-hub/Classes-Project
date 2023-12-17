@@ -1,0 +1,136 @@
+
+
+.courses-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 2rem;
+
+    .heading{
+        margin: 0 auto;
+        max-width: 765px;
+
+        @media screen and (min-width:768px) {
+            max-width: 939px;
+        }
+    }
+    .course-cards {
+        margin-top: 3rem;
+    
+        @media screen and (min-width:768px){
+            display: flex;
+            
+        }
+        
+    
+        .card {
+            border: 2px solid #f59e0b;
+            box-shadow: 2px 4px 8px 2px #4c1d95, 2px 6px 20px 2px #4c1d95;
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            
+            @media screen and (min-width:768px) {
+                width: 50%;
+                margin: 1rem;
+            }
+        
+            // @media screen and (min-width:1080px) {
+            //     width: 33.3333333%;
+            // }
+    
+            // card icons
+            .card-icons {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 2rem;
+                padding-top: 1.75rem;
+                padding-right: 1.75rem;
+                flex-grow: 1;
+        
+                img{
+                    height: 1.6rem;
+                    margin-right: 0.5rem;    
+                }
+            }
+    
+            // card info
+            .card-info {
+                padding: 2rem;
+                padding-top: 1rem;
+                
+                p, h2 {
+                    line-height: 1;
+                }
+    
+                p {
+                    font-size: 0.9rem;                
+                    
+                    
+                }
+    
+                h2 {
+                    font-size: 1.15rem;
+                    letter-spacing: 0.001rem;
+                    line-height: 1.2;
+                    // margin-top: -0.025rem;
+                    margin-top: 0.65rem;
+                    // margin-bottom: 2rem;
+                }
+            }
+    
+            .card-info-list {
+                border-top: 1px solid #eee;
+                padding: 2rem;
+    
+                ul {
+                    list-style: none;
+    
+                    li {
+                        display: flex;
+                        align-items: center;
+    
+                        .fas {
+                            flex-shrink: 0;
+                            color: #f59e0b;
+                            font-size: 1.1rem;
+                            
+                        }
+                        
+                        span {
+                            line-height: 1;
+                            margin-left: 1rem;
+                        }
+    
+                        +li {
+                            margin-top: 0.75rem;
+                        }
+                    }
+                }
+            }
+    
+            .card-action{
+                display: flex;
+                justify-content: flex-end;
+                padding: 1rem;
+                margin-top: 1em;
+                
+               
+            }
+        }
+    
+    }
+    
+    /* Courrses action button */
+    .courses-action {
+        
+        display: flex;
+        justify-content: flex-end;
+        
+        .filled-btn {
+            width: 13rem;
+            height: 3.5rem;
+            margin-top: 3rem;
+            
+        }
+    }
+}

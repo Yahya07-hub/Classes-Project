@@ -1,0 +1,220 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* buttons */
+@import url('button.css');
+
+/* course card */
+@import url('course-card.css');
+
+/* info about us */
+@import url('info.css');
+
+/* testimonials */
+@import url('testimonials.css');
+
+/* footer */
+@import url('footer.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+
+
+
+
+/* Common style */
+h1, h2, h3, h4, h5,h6 {
+    font-size: 1.65rem;
+
+}
+
+@media screen and (min-width:768px) {
+    h1, h2, h3, h4, h5,h6 {
+        font-size: 2.75rem;
+        line-height: 1;
+    }
+}
+
+/* @media screen and (min-width:768px) {
+    h1, h2, h3, h4, h5,h6 {
+        font-size: 2.75rem;
+        line-height: 1;
+    }
+} */
+
+
+/* @media screen and (min-width:px) {
+    p {
+        font-size: 2rem;
+    }
+} */
+
+/* topbar */
+.topbar{
+    background-color: #4c1d95;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.75rem;
+    
+                       
+}
+
+.topbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo{
+    height: 2.3rem;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+        height: 2.8rem;
+    }
+}
+
+/* intro section*/
+.intro-container {
+    background-color: #4c1d95;
+    color: #ffffff;
+    padding: 4rem 0;
+    
+}
+
+.inner-container-small {
+    margin: 0 auto ;
+    max-width: 850px;
+    padding: 0 2rem;
+
+}
+
+@media screen and (min-width:768px) {
+    .inner-container-small {
+        max-width: 1024px;
+    }
+}
+.intro-container h1 {
+    margin-top: 1.3rem;
+}
+
+@media screen and (min-width:1280px) {
+    .intro-container h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+}
+
+.intro-container .main{
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    color: #c4b5fd;
+    line-height: 1.25;
+    
+}
+
+@media screen and (min-width:768px) {
+    .intro-container .main{
+        font-size: 1.5rem;
+
+    }
+}
+
+
+.intro-container .sub{
+    font-size: 1.3rem;
+    line-height: 1.2;
+    color: #c4b5fd;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .intro-container .sub{
+        font-size: 1.5rem;
+
+    }
+}
+
+/* Software icons */
+.software-icons{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.6rem;
+}
+
+.software-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;    
+}
+
+
+.software-icon .node-logo {
+    width: 4rem;
+    height: 4rem;   
+    
+}
+
+.software-icon .vs-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.software-icon h4{
+    margin-left: 1rem;
+    line-height: 1 ;
+    font-size: 1.15rem;
+    margin-right: 3.5rem;
+}
+
+/* Courses section */
+/* heading */
+
+
+
+
+.heading .fas {
+    font-size: 1.75rem;
+    color: #f59e0b;
+    
+}
+
+@media screen and (min-width:768px) {
+    .heading .fas {
+        font-size: 2.25rem;        
+    }
+}
+
+.heading, h2 {
+    font-size: 1.5rem;
+    letter-spacing: -0.1rem;
+    margin-top: 0.15rem;
+}
+
+@media screen and (min-width:768px) {
+    .heading h2 {
+        font-size: 2.15rem;
+    }
+
+    
+}
+
+/* Courrses action button */
+.courses-action {
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}

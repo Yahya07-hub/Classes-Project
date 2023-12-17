@@ -1,0 +1,103 @@
+// testimonial container
+.testimonial-container {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1280px;
+    
+    
+    .heading {
+        margin: 0 auto;
+        max-width: 785px;
+        
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+}
+
+// testimonial group
+.testimonial-group {
+    @media screen and (min-width:768px) {
+        display: flex;
+    }
+    
+}
+
+// testimonial
+.testimonial {
+    
+    border-bottom: none;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 #4c1d95 , 0 6px 20px 0 #4c1d95;
+    margin-top: 2rem;
+    width: 100%;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+    @media screen and (min-width:768px) {
+        width: 50%;
+        margin: 1rem;
+        
+    }
+
+
+    .quote {
+        padding: 1.75rem;        
+        font-weight: 500; 
+        line-height: 1.5;     
+        // position: relative;  
+        margin-bottom: 1rem;
+
+        @media screen and (min-width:768px) {
+            font-size: 1.2rem;
+           
+        }
+        
+    }
+    
+    .author {
+        padding: 1.25rem;       
+        border-radius: 0.5rem;
+        background-color: #4c1d95;
+        color: #ffffff;
+        position: relative;
+        
+        
+        h5 {
+            font-size: 1rem;
+        }
+        
+        p {
+            margin-top: 0.4rem;
+            font-size: 1rem;
+            
+            
+        }
+
+        // icon
+        .fas {
+            
+            box-shadow:  2px 4px 8px 0 rgba(0, 0, 0, 0.452), 0 6px 20px 0 rgba(0, 0, 0, 0.315) ;
+            padding: 1.25rem;
+            border-radius: 9999px;
+            background-color: #ffffff;
+            color: #f59e0b;
+            font-size: 1.75rem;
+            
+            
+            position: absolute;
+        }       
+        
+        .fa-quote-left{
+            bottom: 0;
+            right: 0;
+            margin-bottom: 3rem;
+            margin-right: 2.25rem;
+    
+        }
+    }
+}

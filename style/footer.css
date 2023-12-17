@@ -1,0 +1,141 @@
+.contact-container {
+  background-color: #fafafa;
+}
+.contact-container .inner-container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 850px;
+  margin-top: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container {
+    max-width: 1024px;
+  }
+}
+.contact-container .inner-container .image-container img {
+  height: 2.5rem;
+  margin-top: 6rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container .image-container img {
+    height: 2.8rem;
+  }
+}
+.contact-container .inner-container .contact {
+  margin-top: 0.5rem;
+}
+.contact-container .inner-container .contact .fas {
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container .contact .fas {
+    font-size: 1rem;
+  }
+}
+.contact-container .inner-container .contact .fab {
+  font-size: 0.9rem;
+  margin: 0 0.5rem 0 0.3rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container .contact .fab {
+    font-size: 1rem;
+  }
+}
+.contact-container .inner-container .social {
+  border-bottom: 2px solid #ebeaea;
+}
+.contact-container .inner-container .social p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-top: 1.75rem;
+}
+.contact-container .inner-container .social .fab {
+  color: #171717;
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+  margin-right: 0.2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container .social .fab {
+    font-size: 1.6rem;
+  }
+}
+.contact-container .inner-container .social .fab:hover {
+  color: #5b21b6;
+}
+.contact-container .inner-container .social .fab:active {
+  transform: scale(115%);
+}
+.contact-container .inner-container p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container p {
+    font-size: 1.1rem;
+  }
+}
+.contact-container .inner-container .additional-info {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+.contact-container .inner-container .additional-info a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #171717;
+  margin-bottom: 5rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-container .inner-container .additional-info a {
+    font-size: 1rem;
+  }
+}
+.contact-container .inner-container .additional-info .policy {
+  margin-right: 0.4rem;
+  padding-right: 0.4rem;
+  border-right: 2px solid #dfdbdb;
+}
+.contact-container .inner-container .additional-info a:hover {
+  color: #5b21b6;
+}
+.contact-container .inner-container .additional-info a::after {
+  content: "";
+  background: #5b21b6;
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.contact-container .inner-container .additional-info a:hover::after {
+  width: 100%;
+}
+.f-container {
+  background-color: #f5f5f5;
+}
+.f-container .f-box {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1024px;
+}
+.f-container .f-box h5 {
+  font-size: 0.8rem;
+  padding-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .f-container .f-box h5 {
+    font-size: 0.9rem;
+  }
+}
+.f-container .f-box p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .f-container .f-box p {
+    font-size: 0.9rem;
+  }
+}
